@@ -9,6 +9,7 @@ chmod +x ts
 }
 get() {
 rm -fr sudo.lua
+wget "https://raw.githubusercontent.com/tshakeabas/Tshakke/master/Tshake.lua"
 lua start.lua
 }
 installall(){
